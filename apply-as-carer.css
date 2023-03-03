@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    transition: .2s;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+    margin: auto;
+    width: 100%;
+}
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #F6F3EF;
+    overflow-x: hidden;
+}
+
+
+    main {
+        background-color: #F6F3EF;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .box {
+        width: 100%;
+        height: 100%;
+        background-color: #f6f3ef;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .title h1 {
+        margin-bottom: 15px;
+        color: #0088a9;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .title p{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .your-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    span {
+        color: red;
+        font-size: 20px;
+    }
+
+    .your-info input {
+        height: 40px;
+        width: 300px;
+        border-radius: 30px;
+        border: none;
+        box-shadow: inset 1px 2px 2px gray;
+        padding-left: 15px;
+        font-size: 20px;
+    }
+
+    .your-info input::placeholder {
+        font-size: 20px;
+        opacity: 0.5;
+    }
+    .name {
+        padding-bottom: 20px;
+    }
+
+    .number {
+        padding-bottom: 20px;
+    }
+
+    .email {
+        padding-bottom: 20px;
+    }
+
+    .privacy {
+        font-size: 14px;
+        width: 300px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .privacy-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .privacy-button a {
+        color: black;
+        font-size: 12px;
+        text-decoration: underline;
+    }
+
+
+    .button {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .button a {
+        font-size: 24px;
+        background-color: turquoise;
+        padding: 10px 20px;
+        color: white;
+        white-space: nowrap;
+        border-radius: 25px;
+        transition: 0.7s;
+    }
+
+    .button a:hover {
+        font-size: 25px;
+        opacity: 0.8;
+        color: black;
+        border: 1px solid black;
+    }
+
+
+
+
+
+
+
+
+
+
+
